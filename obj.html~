@@ -1,0 +1,36 @@
+<html>
+<!--Autor Renato Lucena
+		Objeto array 
+	-->
+<head>
+	<title>Array</title>
+	
+	
+</head>
+<body>
+   <script>
+	var paises = ["Brasil","Londres","EUA","Russia","Canada"];
+	console.log(paises);
+	</script>
+	
+	<script>
+	var list = ["Leidy","Alexandre","Kelly","Debora","Renato", null, undefined, 37];
+	for (var i=0; i<list.length; i++) 
+	{
+		console.log("i: "+list[i]);
+		
+	}
+	</script>
+	
+	<script>
+	var num = [];
+	for (var i=0; i<10; i++) 
+	{
+		num[i] = i;
+		
+	}
+	console.log(num);
+	</script>
+	
+</body>
+</html>

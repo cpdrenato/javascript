@@ -1,0 +1,82 @@
+<html>
+<!--Autor Renato Lucena 2017
+	-->
+
+<head>
+	<title> Array de ordenacao e elemento</title>
+</head>
+<script type="text/javascript">
+
+	var Cidades = ["Goiania","Uberlandia","Sao Paulo","Brasilia","Curitiba"];
+   
+   Cidades.sort();
+   //exibir elementos ordenados
+   for (i=0;i<Cidades.length; i++) {
+   	document.write(Cidades[i] + "<br/>");
+   	
+   }
+   
+   var Valores = [12, 34,6, 45, 10,9, 44, 38, 23, 98];
+   
+   Valores.sort();
+   //exibir elementos ordenados
+   for (i=0;i<Valores.length; i++) {
+   	document.write(Valores[i] + " ");
+   	}
+   
+</script>
+
+<h3>Ou simplesmente:</h3>
+<script type="text/javascript" >
+// Ou simplesmente assim:
+   var Valor2 = [12, 34,6, 45, 10,9, 44, 38, 23, 98];
+   //funcao
+   function ordenaNum(a,b) {
+   	return a- b;
+   	
+   }
+   
+   Valor2.sort(ordenaNum);
+   //exibir elementos ordenados
+   for (i=0;i<Valor2.length; i++) {
+   	document.write(Valor2[i] + " ");
+   	}
+</script>
+
+<h3>Modo reverso:</h3>
+<script type="text/javascript" >
+	var City = ["Goiania","Uberlandia","Sao Paulo","Brasilia","Curitiba"];
+   var Valor3 = [12, 34,6, 45, 10,9, 44, 38, 23, 98];
+   //funcao
+   for (i=0;i<City.length; i++) {
+   	document.write(City[i] + "<br/>","<br/>");
+   	
+   }
+   City.sort();
+   //modo reverse
+   City.reverse();
+   for (i=0;i<City.length; i++) {
+   	document.write(City[i] + "<br/>");   	
+   }
+   //ordenacao inversa
+   var Valor3 = [12, 34,6, 45, 10,9, 44, 38, 23, 98];
+   //funcao
+   function ordenaNum(a,b) {
+   	return b- a;
+   	
+   }
+   
+   Valor3.sort(ordenaNum);
+   //exibir elementos ordenados
+   for (i=0;i<Valor3.length; i++) {
+   	document.write(Valor3[i] + " ");
+   	}
+   
+</script>
+
+
+<body>
+
+</body>
+
+</html>

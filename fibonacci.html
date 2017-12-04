@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--Autor Renato Lucena
+		fibonacci 2017
+	-->
+
+<head>
+	<title> Fibonnacci -- ciclo while</title>
+</head>
+<script type="text/javascript">
+    function fibonacci() {
+    	var c=0, temp, n1=0,n2=1;
+    	document.write("Serie fibonacci. </p>");
+    	document.writeln("0");
+    	document.writeln("1");
+    	
+    	while (true){
+			c++;
+			temp=1;
+			n1=n2;
+			n2=temp+n1;
+			document.writeln(n2);   
+			
+			if (c==10) {
+				break;
+				
+			}	
+    	}
+    	
+    }
+</script>
+<body onload="fibonacci()">
+
+</body>
+
+</html>
